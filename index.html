@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.48.0/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.48.0/mapbox-gl.css' rel='stylesheet' />
+    <title>Mapping Urban Data - Manhattan</title>
+  </head>
+  <body>
+    <section>
+      <main id="map"></main>
+      <aside id="mapSubtitle">
+        <h1>Land Use</h1>
+        <ul>
+          <li>
+            <span style="background: #f9eddc"></span>One and Two Family
+            Buildings
+          </li>
+          <li>
+            <span style="background: #f6d9cb"></span>Multi-Family Buildings
+          </li>
+          <li>
+            <span style="background: #f1b89c"></span>Mixed Residential &
+            Commercial Buildings
+          </li>
+          <li>
+            <span style="background: #df7649"></span>Commercial & Offices
+            Buildings
+          </li>
+          <li>
+            <span style="background: #cf4f4f"></span>Industrial & Manufacturing
+          </li>
+          <li>
+            <span style="background: #bec6cc"></span>Transportation & Utility
+          </li>
+          <li>
+            <span style="background: #bde7f4"></span>Public Facilities &
+            Institutions
+          </li>
+          <li>
+            <span style="background: #a3d393"></span>Open Space & Outdoor
+            Recreation
+          </li>
+          <li><span style="background: #8da2b4"></span>Parking Facilities</li>
+          <li><span style="background: #e4e4e4"></span>Vacant Land</li>
+          <li>
+            <span style="background: #f9f9f9; border: 1px solid #ccc"></span>No
+            Data
+          </li>
+        </ul>
+      </aside>
+    </section>
+  </body>
+  <script src="./index.js"></script>
+</html>
